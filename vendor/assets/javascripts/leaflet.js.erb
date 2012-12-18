@@ -2775,10 +2775,10 @@ L.Icon.Default = L.Icon.extend({
 		}
 
 		if (name == 'shadow') {
-			return "<%= asset_path('marker-shadow.png') %>";
+			return "<%= asset_data_uri('marker-shadow.png') %>";
 		}
 		else {
-			return "<%= asset_path('marker-icon.png') %>";
+			return "<%= asset_data_uri('marker-icon.png') %>";
  		}
 	}
 });
